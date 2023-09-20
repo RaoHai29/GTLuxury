@@ -1,0 +1,251 @@
+.Privacy{
+    padding-top: 100px;
+}
+.con1 h1{
+    margin-top: 30px;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.con1 hr{
+    width: 100%;
+    background: rgb(14, 0, 120);
+    font-weight: bold;
+    
+}
+.btn-link{
+    text-decoration: none;
+    color: rgb(255, 246, 246);
+    font-size: 18px;
+    background-color: blue;
+    list-style: none;
+}
+.btn-link:hover{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+.card-header{
+    cursor: pointer;
+}
+footer{
+    margin-top: 50px;
+    background: rgb(97, 95, 95);
+}
+footer ul li{   
+    text-align: start;
+}
+footer div h5, footer div p{
+    text-align: start;
+}
+.hero_title h1{
+    margin-top: 30px;
+}
+.card{
+    border: 0;
+}
+.card-header{
+    background: white;
+    
+}
+
+h5 .btn-link br{
+    display: none;
+}
+section .contact1{
+    padding-top: 120px;
+    background-image: url(./img/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+section .contact1 center h1{
+    margin-top: 40px;
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    
+}
+.details{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.details h1{
+    font-weight: 700;
+    color: #D31228;
+}
+.details p{
+    color: rgb(150, 146, 146);
+    width: 60%;
+    text-align: justify;
+}
+
+.Company-Section .company-form .form-wrapper{
+    border: 1px solid rgb(180, 178, 178);
+    padding: 32px 36px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 500px;
+}
+.Company-Section .company-form .form-wrapper .request-quote h1{
+    font-weight: 600;
+    color:#D31228;
+    width: 100%;
+}
+.form-submit-btn center a{
+    border: 1px solid #D31228 ;
+    padding: 10px 100px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.Company-Section .company-form .form-wrapper .request-quote form input{
+    margin: 20px 0px;
+}
+
+.Company-Section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.Company-Section div .company h3 {
+    flex: 1;
+    font-size: 40px;
+    justify-content: start;
+    cursor: pointer;
+    color: white;
+    font-family: 'Lato';
+}
+.Company-Section div .company-form{
+
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        font-family: 'Lato';
+}
+
+
+
+@media screen and (max-width: 768px){
+    h5 .btn-link br{
+        display: block;
+    }
+    .btn-link{
+        width: 100%;
+        font-size: 13
+        px;
+    }
+     .container center .thankh3{
+        font-size: 18px;
+    }
+    .c1{
+        height: auto;
+    }
+        section .contact1 center h1{
+            font-size: 48px;
+        }
+    .details{
+        padding-left: 5px;
+        padding-right: 5px;
+    } 
+    .details h1{
+        font-size: 24px;
+    }  
+    .details p{
+        width: 100%;
+        text-align: justify;
+    } 
+           .Company-Section .company-form .form-wrapper .request-quote h1{
+            font-size: 32px;
+        }
+        .Company-Section{
+            flex-direction: column;
+        }
+                .Company-Section .company-form .form-wrapper{
+                    margin-left: 15px;
+                    width: 90%;
+
+                }
+                .con1 h1{
+                    font-size: 24px;
+                }   
+                .container{margin-left: 0;}   
+}
+.gall h2,.gall h4 {
+    text-align: center;
+}
+.gall .gall-pic{
+width: 100%;
+height: 110vh;
+ background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.2)),url(./67e6c654-1df1-4125-b87d-4c2e67383c25.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+
+
+}
+div.gallery {
+    border-radius: 50px ;
+    margin-bottom: 30px;
+  }
+  
+  div.gallery:hover {
+    box-shadow: 10px 5px 20px 10px rgba(255, 255, 255, 0.348);
+  }
+  
+  div.gallery img {
+    overflow-x: hidden;
+    border: 2px double yellow;
+    border-radius: 30px;
+    width: 100%;
+    height: 320px;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+    .gall .gall-pic{
+        height: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+    .gall .gall-pic{
+        height: auto;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

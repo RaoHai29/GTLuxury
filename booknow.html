@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT LUXURY | BOOK NOW</title>
+
+    <meta name="description" content="Book your boat rental with GT Luxury Watersports Rental. Fill out the form and our support team will contact you as soon as possible to plan your thrilling water adventure.">
+  <meta name="keywords" content="boat booking, boat rental, water adventure, boat reservation, support team, GT Luxury Watersports Rental">
+
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="Book Your Boat Rental | GT Luxury Watersports Rental">
+  <meta property="og:description" content="Book your boat rental with GT Luxury Watersports Rental. Fill out the form and our support team will contact you as soon as possible to plan your thrilling water adventure.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gtluxurywatersports.com/booknow.html"> <!-- Replace with the actual URL of the booking webpage -->
+  <meta property="og:image" content="./OG-IMAGE.png"> <!-- Replace with the URL of an image representing boat bookings or your booking process -->
+  <meta property="og:image:alt" content="Book Your Boat Rental">
+  <meta property="og:site_name" content="GT Luxury Watersports Rental">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Book Your Boat Rental | GT Luxury Watersports Rental">
+  <meta name="twitter:description" content="Book your boat rental with GT Luxury Watersports Rental. Fill out the form and our support team will contact you as soon as possible to plan your thrilling water adventure.">
+  <meta name="twitter:image" content="./OG-IMAGE.png"> <!-- Replace with the URL of an image representing boat bookings or your booking process -->
+
+
+
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("Lw1hwJtUldhkjo3ey");
+})();
+</script>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="./index.html" class="logo"><img src="./logo.png"></a>
+            <input type="checkbox" name="" id="menu">
+            <label for="menu"><i class='bx bx-menu' id="menu-icon"></i></label>
+
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./gallary.html" style="text-decoration: none;">Gallary</a></li>
+                <li><a href="./boats.html">Boats</a></li>
+                <li><a href="./faq.html">FAQs</a></li>
+            </ul>
+            <a href="./booknow.html" class="btn1">Book Now</a>
+        </div>
+    </header>
+
+<!-- ...................... Book Now .................  -->
+    <div class="book container">
+        <div class="book-container">
+
+     <h2>Book Now!</h2>
+
+     <div>
+        <span>Full Name</span>
+        <input type="text" name="fullname" id="user_name" placeholder="Your Name" required>
+        <span>Enter Your Email Address</span>
+        <input type="email" name="email" id="user_email" placeholder="Your Email" required>
+        <span>Enter Your Phone Number</span>
+        <input type="tel" name="phone" id="user_phone" placeholder="Enter Your Number" required>
+        <span>Select Boat</span>
+        <select id="user_boat">
+            <option value="Boat 1">Boat-1</option>
+            <option value="Boat 2">Boat-2</option>
+            <option value="Boat 3">Boat-3</option>
+            <option value="Boat 4">Boat-4</option>
+            <option value="Boat 5">Boat-5</option>
+        </select>
+        <span>Select Location</span>
+        <select id="user_location">
+            <option value="Location 1">Christenson's landing -5355 US-1,Grant-Valkaria,FL 32949</option>
+            <option value="Location 2">Boat Ramp downtown 2205 Front St,Melbourne,FL 32901</option>
+            <option value="Location 3">Eau Gallie Causeway, FL-518, Melbourne, FL 32935 </option>
+        </select>
+        <span>Check in</span>
+        <input type="text" name="user_date" id="user_date" placeholder="12-09-2023 ..." required>
+        
+
+     <button onclick="SendMail()" class="btn1">Book Now!</button>
+    </div>
+     </div>
+       
+    <div class="book-image">
+        <img src="./logo.png" alt="GTLuxury logo">
+    </div>
+    </div>
+
+
+
+
+<!-- ..................Footer............. -->
+<section class="footer">
+    <div class="footer-container container">
+        <h2><a href="./index.html"><img class="Booklog" src="./logo.png"></a></h2>
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="./about.html">About Us</a>
+            <a href="./boats.html">Boats</a>
+            <a href="./gallary.html">Gallery</a>
+        </div>
+        <div class="footer-box">
+            <h3>Locations</h3>
+            <a href="https://goo.gl/maps/unqkbzsJh3MXLEc27">Boat Ramp downtown 2205<br> Front St,Melbourne,FL 32901</a>
+            <a href="https://goo.gl/maps/oqkogYzphTnaqhnZ7">Eau Gallie Causeway,<br> FL-518, Melbourne, FL 32935</a>
+            <a href="https://goo.gl/maps/3mm2pcUfTsCFQezJ6"> Christenson's landing <br>5355 US-1,Grant-Valkaria,FL 32949</a>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <a href="tel:+3212421645">+(321)-242-1645</a>
+            <p style="font-size: small;">gtluxurywatersports@gmail.com</p><br>
+              <div class="social">
+                <a href="https://www.facebook.com/gtluxurywatersports"><i class="bx bxl-facebook"></i></a>
+                <a href=""><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/gtluxurywatersports/"><i class="bx bxl-instagram"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- ................Copyright................. -->
+    <div class="copyright">
+        <p>&#169; GT LUXURY All Rights Reserved</p>
+    </div>
+<script src="email.js"></script>
+</body>
+</html>
